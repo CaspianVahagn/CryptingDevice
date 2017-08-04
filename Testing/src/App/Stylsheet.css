@@ -1,0 +1,43 @@
+
+
+.text-area .content{
+      -fx-background-color: #1b1b1b;
+      -fx-font-family: "Courier New";
+}
+
+.text-area   {
+    -fx-text-fill: lightgreen;
+   
+   	
+	-fx-font-size: 14px;
+	-fx-font-weight: normal;
+	font-variant: normal;
+	font-weight: 400;
+	-fx-line-height: 20px;
+	-fx-font-family: "Courier New";
+}
+  
+.hbox {
+      -fx-background-color: #1b1b1b;
+}
+
+.vbox {
+      -fx-background-color: #1b1b1b;
+      -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 15);
+}
+
+.button{
+     -fx-color: #6b6b6b;
+}
+
+.texti{
+	
+	-fx-text-fill: lightgreen;
+	
+}
+
+.texti{
+	
+	-fx-text-fill: lightgreen;
+	
+}
