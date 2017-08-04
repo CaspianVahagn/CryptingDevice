@@ -43,7 +43,8 @@ public class CryptingApp extends Application {
 		TextArea output = new TextArea();
 		input.setWrapText(true);
 		output.setWrapText(true);
-		input.setPromptText("Enter Text you like to Crypt, and Push the Button 'Crypt', same for 'Decrypting' with the 'decrypt' Button dont forget to enter the Key" );
+		input.setText("Enter Text you like to Crypt, and Push the Button 'Crypt', same for 'Decrypting' with the 'decrypt' Button dont forget to enter the Key" );
+		output.setText("Ecrypted or decryptet will be displayed here!");
 		Button crypt = new Button("Crypt");
 		Button decrypt = new Button("deCrypt");
 		TextField key = new TextField("key");
